@@ -1,4 +1,4 @@
-package po.chap02.section4
+package chap02.section4
 
 fun main() {
     var a : Int = 10

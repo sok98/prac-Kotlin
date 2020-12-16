@@ -1,4 +1,4 @@
-package po.chap02.section2
+package chap02.section2
 
 fun main() {
     var str1: String = "Hello"
