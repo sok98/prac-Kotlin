@@ -1,4 +1,4 @@
-package chap02.section3
+package po.chap02.section3
 
 // ?. : 세이프콜 - null이면 뒷부분 실행안함
 // !!. : null일리 없다라고 단정. null이더라도 실행시킴. NPE 발생 가능성때문에 사용하지않는 것이 좋음
