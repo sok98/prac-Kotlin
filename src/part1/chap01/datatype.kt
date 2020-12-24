@@ -1,4 +1,4 @@
-package chap01
+package part1.chap01
 
 //선언키워드 변수이름: 자료형 = "값"
 //val : 불변형

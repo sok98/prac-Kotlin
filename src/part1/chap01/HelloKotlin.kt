@@ -1,4 +1,4 @@
-package chap01
+package part1.chap01
 
 fun main(args: Array<String>) {
     println("args[0] = ${args[0]}")
