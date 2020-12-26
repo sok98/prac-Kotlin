@@ -1,4 +1,4 @@
-package chap02.section3
+package part1.chap02.section3
 
 // == : 값만 비교
 // === : 값과 참조 주소 비교

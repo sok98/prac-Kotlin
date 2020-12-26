@@ -1,4 +1,4 @@
-package chap02.section2
+package part1.chap02.section2
 
 // 줄간복사: Ctrl + D
 // 다중선택 : Alt + Shift + 더블클릭
