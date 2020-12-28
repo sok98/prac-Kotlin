@@ -1,4 +1,4 @@
-package chap03.section1
+package part1.chap03.section1
 
 fun sum(a: Int = 2, b: Int = 5): Int {
     return a + b

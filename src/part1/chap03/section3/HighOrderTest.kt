@@ -1,4 +1,4 @@
-package chap03.section3
+package part1.chap03.section3
 
 fun highFunc(a: Int, b:Int, sum: (Int, Int)-> Int): Int {
     return sum(a, b)

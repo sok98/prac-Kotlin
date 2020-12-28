@@ -1,4 +1,4 @@
-package chap03.section1
+package part1.chap03.section1
 
 fun normalVarargs(vararg a: Int) {
     for (num in a) {

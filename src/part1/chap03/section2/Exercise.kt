@@ -1,4 +1,4 @@
-package chap03.section1
+package part1.chap03.section1
 
 fun avgFunc(initial: Float = 0f, vararg numbers: Float): Double {
     var result = 0f
