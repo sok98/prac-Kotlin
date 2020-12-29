@@ -1,4 +1,4 @@
-package chap04.section4
+package part1.chap04.section4
 
 var global = 10
 

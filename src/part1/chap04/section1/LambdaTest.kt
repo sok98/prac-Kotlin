@@ -1,4 +1,4 @@
-package chap04.section1
+package part1.chap04.section1
 
 fun main() {
     val result: Int

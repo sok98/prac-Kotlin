@@ -1,4 +1,4 @@
-package chap04.section3
+package part1.chap04.section3
 
 inline fun shortFunc(a: Int, out: (Int) -> Unit) {
     println("Hello")
