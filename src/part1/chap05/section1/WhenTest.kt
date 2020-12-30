@@ -1,4 +1,4 @@
-package chap05.section1
+package part1.chap05.section1
 
 // ctrl + / : 범위 주석처리
 

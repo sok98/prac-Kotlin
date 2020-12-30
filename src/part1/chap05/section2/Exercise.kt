@@ -1,4 +1,4 @@
-package chap05.section2
+package part1.chap05.section2
 
 fun main() {
     print("Enter the lines : ")

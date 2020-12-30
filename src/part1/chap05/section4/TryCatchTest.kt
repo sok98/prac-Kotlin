@@ -1,4 +1,4 @@
-package chap05.section4
+package part1.chap05.section4
 
 fun main() {
     val a=6
