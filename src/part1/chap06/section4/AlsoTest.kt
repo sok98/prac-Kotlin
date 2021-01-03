@@ -1,4 +1,4 @@
-package chap06.section4
+package part1.chap06.section4
 
 fun main() {
     data class Person (var name: String, var skills: String)
