@@ -1,19 +1,27 @@
-def check(arr):
+def solution(info, query):
     answer = []
-    ch = [0 for _ in range(max(arr)+1)]
-    for i in arr:
-        ch[i] += 1
+    
+    new_info = []
+    for i in info:
+        p = list(i.split(" "))
+        new_info.append(p)
+        
+    for q in query:
+        result = [1 for _ in range(len(new_info))]
+        con = list(q.replace(" and ", " ").split(" "))
+        print(con)
 
-    for c in ch:
-        if c > 1:
-            answer.append(c)
-
-    if not answer:
-        answer.append(-1)
-
+        for c in range(len(con)):
+            if con[c] != "-":
+                if con[c].isdigit():
+                    for i in range(len(new_info)):
+                        if result[i] == 1 and int(con[c]) > int(new_info[i][c]):
+                            result[i] = 0
+                else:
+                    for i in range(len(new_info)):
+                        if result[i] == 1 and con[c] != new_info[i][c]:
+                            result[i] = 0
+                
+        answer.append(sum(result))
+        
     return answer
-
-
-print(check([1, 2, 3, 3, 3, 3, 4, 4]))
-print(check([3, 2, 4, 4, 2, 5, 2, 5, 5]))
-print(check([3, 5, 7, 9, 1]))
